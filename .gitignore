@@ -1,0 +1,32 @@
+# Backend (Maven / Java)
+codebase/server/target/
+codebase/server/.mvn/
+codebase/server/*.log
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Local backend secrets/overrides (never commit real credentials)
+codebase/server/src/main/resources/application-local.yml
+codebase/server/.env
+
+# Frontend (Node / Vite)
+codebase/clinet/node_modules/
+codebase/clinet/dist/
+codebase/clinet/.env
+codebase/clinet/.env.local
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Uploaded files (doctor certifications)
+uploads/
+codebase/server/uploads/
